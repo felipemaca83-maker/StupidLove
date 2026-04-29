@@ -141,7 +141,7 @@ function irAlFinal() {
 function iniciarTexto() {
   const messageText = `En definitiva... 
 
-Nuestra historia es mi favorita. ✨
+Nuestra historia es mi favorita. ✨ 
 
 Todo empezó en ese salón de clases, entre apuntes y risas compartidas, sin imaginar que el destino nos estaba sentando en el mismo camino. Fuimos mejores amigos, el apoyo del otro cuando el mundo afuera parecía complicado. 
 

@@ -103,11 +103,14 @@ html {
   font-size: 3.5rem;
   z-index: 10;
 }
+
 #pantalla3 .glow-title {
-    font-size: 1.8rem; /* Tamaño reducido para los capítulos */
-    margin-top: 10px;
-    margin-bottom: 15px;
+  font-size: 1.8rem;
+  /* Tamaño reducido para los capítulos */
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
+
 /* --- CARRUSEL Y SLIDES --- */
 .carrusel-seccion {
   display: none;
@@ -121,6 +124,13 @@ html {
   display: flex;
   opacity: 1;
   transition: opacity 0.8s ease;
+}
+
+.carrusel-seccion .btn-generic {
+  font-size: 1.2rem;
+  /* Más pequeño solo dentro de los carruseles */
+  padding: 8px 25px;
+  margin-top: 10px;
 }
 
 .carrusel {
@@ -214,45 +224,64 @@ html {
   overflow-y: auto;
 }
 
-.mensaje-final, .info-slide {
-    font-family: 'Caveat', cursive;
-    font-weight: 600;
-    font-size: 1.6rem;
+.mensaje-final,
+.info-slide {
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+  white-space: pre-wrap; /* ESTO ES LO QUE PERMITE LOS SALTOS DE LÍNEA */
+    line-height: 1.2;
+  /* Centra las líneas de texto */
+  display: block;
+  width: 100%;
+  /* Asegura que ocupe todo el ancho del cuadro de cristal */
+  margin: 0 auto;
 }
+
 /* ... (todo lo anterior igual hasta llegar a Pantallas Finales) ... */
 
 .info-slide-externo {
-    width: 85%;
-    background: var(--glass-bg);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--glass-border);
-    border-radius: 20px;
-    padding: 15px;
-    margin-bottom: 20px;
-    text-align: center;
-    transition: opacity 0.3s ease;
+  width: 85%;
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: opacity 0.3s ease;
 }
+
 .info-slide-externo span {
-    transition: opacity 0.4s ease-in-out;
-    display: block; /* Para que la opacidad afecte bien al bloque */
+  transition: opacity 0.4s ease-in-out;
+  display: block;
+  /* Para que la opacidad afecte bien al bloque */
 }
+
 .overlay-final {
-    position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 50%);
-    z-index: 5;
-    pointer-events: none; /* ESTO ARREGLA EL BOTÓN FINAL */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 50%);
+  z-index: 5;
+  pointer-events: none;
+  /* ESTO ARREGLA EL BOTÓN FINAL */
 }
 
 .contenido-final {
-    position: relative;
-    z-index: 10; /* Por encima del overlay */
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+  position: relative;
+  z-index: 10;
+  /* Por encima del overlay */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
+
 /* --- PANTALLAS FINALES (5 Y 6) --- */
 .img-fondo-borrosa,
 .img-fondo-full {
@@ -271,12 +300,15 @@ html {
 }
 
 .mensaje-cursivo {
-    font-family: 'Caveat', cursive;
-    font-weight: 600; /* Esto activa la semi-negrita */
-    font-size: 2.5rem; /* Un poco más grande para que luzca el trazo */
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para que resalte sobre el fondo */
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+  /* Esto activa la semi-negrita */
+  font-size: 2.5rem;
+  /* Un poco más grande para que luzca el trazo */
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Sombra para que resalte sobre el fondo */
 }
 
 .overlay-final {
