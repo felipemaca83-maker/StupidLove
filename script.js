@@ -115,3 +115,72 @@ function crearParticulas() {
 // Asegúrate de llamarla al cargar la página
 window.onload = crearParticulas;
 
+function iniciarTexto() {
+  const messageText = `En definitiva, has logrado despertar en mí sentimientos y emociones... (todo tu texto aquí)`;
+
+  const messageEl = document.getElementById("message");
+  messageEl.textContent = "";
+  let i = 0;
+
+  function typeMessage() {
+    if (i < messageText.length) {
+      messageEl.textContent += messageText.charAt(i);
+      let char = messageText.charAt(i);
+      i++;
+
+      let delay = 50;
+      if (",".includes(char)) delay = 400;
+      if (".✨😍💪🏼🥰🤭🫶🏽💕😎".includes(char)) delay = 800;
+      if ("\n".includes(char)) delay = 600;
+
+      setTimeout(typeMessage, delay);
+
+      // Auto-scroll para que el usuario siempre vea lo que se está escribiendo
+      const container = messageEl.parentElement;
+      container.scrollTop = container.scrollHeight;
+    } else {
+      document.getElementById("readButton").style.display = "inline-block";
+    }
+  }
+  setTimeout(typeMessage, 1000);
+}
+
+// Esta función se activa al darle al botón "Finalizar" de la pantalla 4
+function finishMessage() {
+  // 1. Cambiamos a la pantalla 5
+  document.getElementById("pantalla4").classList.remove("activa");
+  document.getElementById("pantalla4").style.display = "none";
+
+  const p5 = document.getElementById("pantalla5");
+  p5.classList.add("activa");
+  p5.style.display = "flex";
+
+  // 2. Esperamos X tiempo (ejemplo: 7 segundos) y pasamos a la 6
+  // Calculado para una lectura cómoda de una frase corta
+  setTimeout(() => {
+    irAPantallaFinal();
+  }, 7000);
+}
+
+function irAPantallaFinal() {
+  const p5 = document.getElementById("pantalla5");
+  const p6 = document.getElementById("pantalla6");
+
+  p5.classList.remove("activa");
+  p5.style.display = "none";
+
+  p6.classList.add("activa");
+  p6.style.display = "flex";
+}
+
+function cerrarProyecto() {
+  // Aquí puedes redirigir a tu Instagram, TikTok o simplemente un mensaje
+  alert("¡Espero que te haya gustado! Hecho con ❤️ por Felipe.");
+  // window.location.href = "https://tiktok.com/@tu_usuario"; 
+}
+// Ejemplo de clic en el último botón
+// function irAlFinal() {
+//   document.getElementById('pantalla3').style.display = 'none'; // u ocultar la sección carrusel
+//   document.getElementById('pantalla4').classList.add('activa');
+//   iniciarTexto(); // Arranca el efecto
+// }

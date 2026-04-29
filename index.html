@@ -118,19 +118,19 @@
           </div>
           <img src="picture/foto_final_dayana.jpeg" alt="Foto">
         </div>
-        
+
         <div class="slide">
           <img src="picture/foto_final_dayana.jpeg" alt="Foto">
           <!-- <button class="btn-generic siguiente-carrusel">Continuar... ✍🏼</button> -->
         </div>
 
-         
+
         <div class="slide">
           <img src="picture/foto_final_dayana.jpeg" alt="Foto">
           <!-- <button class="btn-generic siguiente-carrusel">Continuar... ✍🏼</button> -->
         </div>
 
-         
+
         <div class="slide">
           <img src="picture/foto_final_dayana.jpeg" alt="Foto">
           <button class="btn-generic siguiente-carrusel">Continuar... ✍🏼</button>
@@ -155,12 +155,39 @@
       </div>
     </section>
   </div>
-
-  <!-- Pantalla 4 -->
   <div class="pantalla" id="pantalla4">
-    <h1>Mucho texto ¿cierto?</h1>
-    <h1>💕 Besitossss! 💕</h1>
+    <video autoplay muted loop playsinline class="background-video">
+      <source
+        src="https://www.dropbox.com/scl/fi/erv0pjgvoc4ma04ol7d8a/vfinal.mov?rlkey=zjl3bjk65z2n0gl7vw831jyx2&st=o7c38krh&raw=1"
+        type="video/mp4">
+    </video>
+
+    <div class="video-overlay"></div>
+
+    <div class="glass-container" style="max-height: 80vh; overflow-y: auto;">
+      <p id="message" class="mensaje-final"></p>
+      <button id="readButton" class="btn-generic" onclick="finishMessage()" style="display:none; margin-top: 20px;">
+        Finalizar ❤️
+      </button>
+    </div>
   </div>
+ <div class="pantalla" id="pantalla5">
+    <div class="img-fondo-borrosa" style="background-image: url('picture/foto_final_dayana.jpeg');"></div>
+    <div class="glass-container">
+        <p class="mensaje-cursivo">
+            "Cada momento a tu lado es una nueva página de esta historia que me encanta escribir contigo..."
+        </p>
+    </div>
+</div>
+
+<div class="pantalla" id="pantalla6">
+    <div class="img-fondo-full" style="background-image: url('picture/foto_final_dayana.jpeg');"></div>
+    <div class="overlay-final"></div> <div class="contenido-final">
+        <h2 class="glow-title">Gracias por existir</h2>
+        <button class="btn-generic" onclick="cerrarProyecto()">Finalizar ❤️</button>
+    </div>
+</div>
+
   <script src="script.js"></script>
 
 </body>
