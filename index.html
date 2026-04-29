@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Para Ti 💙</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
 
   </style>
@@ -15,9 +16,10 @@
 
   <div id="pantalla1" class="pantalla activa">
     <div class="glass-container">
-      <h1 class="glow-title">Hola bb</h1>
+      <h1 class="glow-title">Hola Noviecito</h1>
       <p style="font-size: 1.2rem; margin: 20px 0; text-align: center;">
-        He preparado algo especial para ti...
+        He preparado algo especial para ti... <br>
+        Espero que te guste, es con mucho cariño. ❤️
       </p>
     </div>
     <button class="btn-generic btn-pulse" onclick="siguientePantalla(2)">
@@ -29,7 +31,7 @@
     <div id="prep-particles" style="position:absolute; width:100%; height:100%; z-index: -1;"></div>
 
     <h1 class="glow-title" style="font-size: 2.2rem; text-align: center; padding: 0 20px; margin-bottom: 20px;">
-      Veo que elegiste ver el detalle... ✨
+      Impotrante: Lee esto antes de continuar
     </h1>
 
     <div class="glass-box">
@@ -48,7 +50,7 @@
     </div>
 
     <button class="btn-generic btn-pulse" onclick="siguientePantalla(3)">
-      ¡Estoy lista!
+      ¡Estoy listo!
     </button>
   </div>
 
@@ -191,7 +193,7 @@
 
         <div class="slide">
           <img src="picture/f8_c3.jpeg" alt="Foto">
-          <button class="btn-generic" onclick="irAlFinal()">Ver mensaje final 💌</button>
+          <button class="btn-generic" onclick="irAlFinal()">Antes de terminar...</button>
         </div>
 
         <div class="dots"></div>
@@ -209,7 +211,7 @@
     <div class="glass-container" style="max-height: 80vh; overflow-y: auto;">
       <p id="message" class="mensaje-final"></p>
       <button id="readButton" class="btn-generic" onclick="finishMessage()" style="display:none; margin-top: 20px;">
-        Finalizar ❤️
+        Siguiente...
       </button>
     </div>
   </div>

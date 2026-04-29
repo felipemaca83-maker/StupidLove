@@ -195,7 +195,7 @@ function finishMessage() {
 
 function cerrarProyecto() {
   console.log("Botón finalizar presionado");
-  alert("¡Espero que te haya gustado! Hecho con ❤️ por Felipe.");
+  alert("Gracias por leer hasta el final. ¡Te quiero mucho! ❤️");
 }
 
 // --- SISTEMA DE PARTÍCULAS ---

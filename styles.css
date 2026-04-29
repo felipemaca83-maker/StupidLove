@@ -214,11 +214,10 @@ html {
   overflow-y: auto;
 }
 
-.mensaje-final {
-  font-family: 'Caveat', cursive;
-  font-size: 1.4rem;
-  line-height: 1.5;
-  white-space: pre-wrap;
+.mensaje-final, .info-slide {
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 1.6rem;
 }
 /* ... (todo lo anterior igual hasta llegar a Pantallas Finales) ... */
 
@@ -272,10 +271,12 @@ html {
 }
 
 .mensaje-cursivo {
-  font-family: 'Caveat', cursive;
-  font-size: 2rem;
-  text-align: center;
-  color: white;
+    font-family: 'Caveat', cursive;
+    font-weight: 600; /* Esto activa la semi-negrita */
+    font-size: 2.5rem; /* Un poco más grande para que luzca el trazo */
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para que resalte sobre el fondo */
 }
 
 .overlay-final {
