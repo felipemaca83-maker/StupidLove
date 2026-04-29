@@ -13,17 +13,17 @@
 
 <body>
 
-<div id="pantalla1" class="pantalla activa">
+  <div id="pantalla1" class="pantalla activa">
     <div class="glass-container">
-        <h1 class="glow-title">Hola bb</h1>
-        <p style="font-size: 1.2rem; margin: 20px 0; text-align: center;">
-            He preparado algo especial para ti...
-        </p>
-        <button class="btn-generic btn-pulse" onclick="siguientePantalla(2)">
-            Empezar ✨
-        </button>
+      <h1 class="glow-title">Hola bb</h1>
+      <p style="font-size: 1.2rem; margin: 20px 0; text-align: center;">
+        He preparado algo especial para ti...
+      </p>
+      <button class="btn-generic btn-pulse" onclick="siguientePantalla(2)">
+        Empezar ✨
+      </button>
     </div>
-</div>
+  </div>
 
   <!-- Pantalla 2 -->
   <div id="pantalla2" class="pantalla">
@@ -54,65 +54,107 @@
   </div>
 
   <!-- Pantalla 3 -->
-<div class="pantalla" id="pantalla3">
-  
-  <audio id="backgroundAudio" loop>
-    <source src="picture/musica_fondo.mp3" type="audio/mpeg">
-  </audio>
+  <div class="pantalla" id="pantalla3">
 
-  <section class="carrusel-seccion visible" data-seccion="1">
-    <p class="glow-title">Capítulo 1</p>
-    <div class="carrusel">
-      <div class="slide activa">
-        <div class="info-slide">
-                <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
-            </div>
-        <img src="picture/foto_final_dayana.jpeg" alt="Foto">
-      </div>
-      <div class="slide">
-        <img src="picture/foto_final_dayana.jpeg" alt="Foto">
-        <div class="info-slide">
-                <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
-            </div>
-        <button class="btn-generic siguiente-carrusel">Siguiente Capítulo 🍻</button>
-      </div>
-      <div class="dots"></div>
-    </div>
-  </section>
+    <audio id="backgroundAudio" loop>
+      <source src="picture/musica_fondo.mp3" type="audio/mpeg">
+    </audio>
 
-  <section class="carrusel-seccion" data-seccion="2">
-    <p class="glow-title">Capítulo 2</p>
-    <div class="carrusel">
-      <div class="slide activa">
-        <div class="info-slide">
-                <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
-            </div>
-        <img src="picture/foto_final_dayana.jpeg" alt="Foto">
-      </div>
-      <div class="slide">
-        <img src="picture/foto_final_dayana.jpeg" alt="Foto">
-        <button class="btn-generic siguiente-carrusel">Continuar... ✍🏼</button>
-      </div>
-      <div class="dots"></div>
-    </div>
-  </section>
+    <section class="carrusel-seccion visible" data-seccion="1">
+      <p class="glow-title">Capítulo 1</p>
+      <div class="carrusel">
+        <div class="slide activa">
+          <div class="info-slide">
+            <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
+          </div>
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+        </div>
 
-  <section class="carrusel-seccion" data-seccion="3">
-    <div class="carrusel">
-      <div class="slide activa">
-        <img src="picture/foto_final_dayana.jpeg" alt="Foto">
-        <div class="info-slide">
-                <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
-            </div>
+        <div class="slide">
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+          <div class="info-slide">
+            <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
+          </div>
+
+          <!-- <button class="btn-generic siguiente-carrusel">Siguiente Capítulo 🍻</button> -->
+        </div>
+
+
+        <div class="slide">
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+          <div class="info-slide">
+            <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
+          </div>
+
+          <!-- <button class="btn-generic siguiente-carrusel">Siguiente Capítulo 🍻</button> -->
+        </div>
+
+        <div class="slide">
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+          <div class="info-slide">
+            <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
+          </div>
+
+          <!-- <button class="btn-generic siguiente-carrusel">Siguiente Capítulo 🍻</button> -->
+        </div>
+        <div class="slide">
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+          <div class="info-slide">
+            <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
+          </div>
+
+          <button class="btn-generic siguiente-carrusel">Siguiente Capítulo 🍻</button>
+        </div>
+        <div class="dots"></div>
       </div>
-      <div class="slide">
-        <img src="picture/foto_final_dayana.jpeg" alt="Foto">
-        <button class="btn-generic" onclick="siguientePantalla(4)">Ver mensaje final 💌</button>
+    </section>
+
+    <section class="carrusel-seccion" data-seccion="2">
+      <p class="glow-title">Capítulo 2</p>
+      <div class="carrusel">
+        <div class="slide activa">
+          <div class="info-slide">
+            <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
+          </div>
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+        </div>
+        
+        <div class="slide">
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+          <!-- <button class="btn-generic siguiente-carrusel">Continuar... ✍🏼</button> -->
+        </div>
+
+         
+        <div class="slide">
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+          <!-- <button class="btn-generic siguiente-carrusel">Continuar... ✍🏼</button> -->
+        </div>
+
+         
+        <div class="slide">
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+          <button class="btn-generic siguiente-carrusel">Continuar... ✍🏼</button>
+        </div>
+        <div class="dots"></div>
       </div>
-      <div class="dots"></div>
-    </div>
-  </section>
-</div>
+    </section>
+
+    <section class="carrusel-seccion" data-seccion="3">
+      <div class="carrusel">
+        <div class="slide activa">
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+          <div class="info-slide">
+            <span>Aquí puedes poner el texto que quieras para esta foto ✨</span>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="picture/foto_final_dayana.jpeg" alt="Foto">
+          <button class="btn-generic" onclick="siguientePantalla(4)">Ver mensaje final 💌</button>
+        </div>
+        <div class="dots"></div>
+      </div>
+    </section>
+  </div>
 
   <!-- Pantalla 4 -->
   <div class="pantalla" id="pantalla4">
