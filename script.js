@@ -76,9 +76,25 @@ document.querySelectorAll(".carrusel-seccion").forEach(seccion => {
 
       // 2. Definimos los textos por sección
       const textosPorSeccion = {
-        "1": ["Foto 1 cap 1", "Foto 2 cap 1", "Foto 3 cap 1", "Foto 4 cap 1", "Foto 5 cap 1", "Foto 6 cap 1", "Foto 7 cap 1", "Foto 8 cap 1"],
-        "2": ["Inicio cap 2", "Segunda de cap 2", "Tercera de cap 2", "Final de cap 2", "Foto 5 cap 2", "Foto 6 cap 2", "Foto 7 cap 2", "Foto 8 cap 2"],
-        "3": ["Foto 1 cap 3", "Foto 2 cap 3", "Foto 3 cap 3", "Foto 4 cap 3", "Foto 5 cap 3", "Foto 6 cap 3", "Foto 7 cap 3", "Foto 8 cap 3"]
+        "1": ["Aqui va una indicacion", "💬", "Y pensar que nuestra vida cambió con un solo \"Hola\"... 💬", "Desde ese instante, sin saberlo, algo mágico empezó a crecer.", "Nuestras charlas se volvieron refugio y nuestra historia comenzó a escribirse.", "Poco a poco, esa conexión se hizo más fuerte que la distancia y el tiempo.", "Y sin entenderlo del todo en ese momento... El destino ya nos estaba trazando el camino para encontrarnos. ❤️", "Aquel cuento que leímos... esa historia que nos hizo detenernos a pensar."],
+        "2": [
+          "Esa primera vez que vibramos al mismo ritmo, entre luces y música.",       // Concierto
+          "Descubrimos que los momentos más sencillos eran nuestros favoritos...",    // Picnic 1
+          "Días de sol, tranquilidad y esa paz que solo sentía estando a tu lado.",    // Picnic 2
+          "Poco a poco, el 'tú' y el 'yo' se fue transformando en un 'nosotros'.",    // Picnic 3
+          "Compartiendo risas, cenas y confesiones que nos hacían más cercanos.",      // Restaurante
+          "Aún no había etiquetas, pero mi corazón ya sabía que eras tú. ❤️"          // Cierre sección
+        ],
+        "3": [
+          "Y por fin, el 'nosotros' se hizo oficial ante el mundo... 🥂",          // Foto 1: Beso restaurante
+          "Ver tu sonrisa iluminarse con ese detalle fue mi mejor regalo. 💐",    // Foto 2: Ella con flores
+          "Un momento que guardaré siempre como el inicio de lo mejor.",          // Foto 3: Beso y ramo
+          "Porque no importa el lugar, si es contigo, el paisaje es perfecto.",    // Foto 4: Beso otro lugar
+          "Admiro todo de ti, y me hace feliz ser quien cuide de tu alegría.",    // Foto 5: Beso mejilla
+          "En la cercanía de tus besos encontré mi lugar favorito en el mundo.",  // Foto 6: Beso corto
+          "Buscando siempre mil formas de recordarte lo especial que eres... ✨", // Foto 7: Él con flores (espalda)
+          "Porque somos un equipo único, en este y en cualquier universo. ¡Te elijo a ti! ❤️" // Foto 8: Pokémon
+        ],
       };
 
       // 3. Buscamos el span específico DE ESTA SECCIÓN
@@ -123,7 +139,19 @@ function irAlFinal() {
 
 // --- EFECTO MÁQUINA DE ESCRIBIR ---
 function iniciarTexto() {
-  const messageText = `En definitiva`;
+  const messageText = `En definitiva... 
+
+Nuestra historia es mi favorita. ✨
+
+Todo empezó en ese salón de clases, entre apuntes y risas compartidas, sin imaginar que el destino nos estaba sentando en el mismo camino. Fuimos mejores amigos, el apoyo del otro cuando el mundo afuera parecía complicado. 
+
+Pasamos por tormentas, sanamos heridas de pasados que dolieron y nos acompañamos en el proceso de volver a encontrarnos a nosotros mismos. 
+
+Pero el destino es curioso... y una noche, entre copas y risas, esos celos inesperados nos delataron. Fue el momento en que nuestras miradas cambiaron y entendimos que lo que sentíamos ya no cabía en la palabra "amistad". 🥰
+
+Desde ahí, cada salida, cada concierto, cada picnic y cada detalle se volvió un motivo más para elegirte. Gracias por ser mi lugar seguro, por transformar los días grises en momentos llenos de color y por permitirme escribir este cuento contigo. 🫶🏽
+
+Te quiero, hoy y siempre. ❤️`;
 
   const messageEl = document.getElementById("message");
   messageEl.textContent = "";
