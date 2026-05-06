@@ -83,17 +83,17 @@ document.querySelectorAll(".carrusel-seccion").forEach(seccion => {
           "Días de sol, tranquilidad y esa paz que solo sentía estando a tu lado.",    // Picnic 2
           "Poco a poco, el 'tú' y el 'yo' se fue transformando en un 'nosotros'.",    // Picnic 3
           "Compartiendo risas, cenas y confesiones que nos hacían más cercanos.",      // Restaurante
-          "Aún no había etiquetas, pero mi corazón ya sabía que eras tú. ❤️"          // Cierre sección
+          "Aún no había etiquetas, pero mi corazón ya sabía que eras tú. 💞"          // Cierre sección
         ],
         "3": [
           "Y por fin, el 'nosotros' se hizo oficial ante el mundo... 🥂",          // Foto 1: Beso restaurante
-          "Ver tu sonrisa iluminarse con ese detalle fue mi mejor regalo. 💐",    // Foto 2: Ella con flores
+          "Sé que dar el paso no fue fácil, pero en ese momento transformaste mi mundo. Gracias por arriesgarte a ser feliz a mi lado. 💐",    // Foto 2: Ella con flores
           "Un momento que guardaré siempre como el inicio de lo mejor.",          // Foto 3: Beso y ramo
           "Porque no importa el lugar, si es contigo, el paisaje es perfecto.",    // Foto 4: Beso otro lugar
           "Admiro todo de ti, y me hace feliz ser quien cuide de tu alegría.",    // Foto 5: Beso mejilla
           "En la cercanía de tus besos encontré mi lugar favorito en el mundo.",  // Foto 6: Beso corto
           "Buscando siempre mil formas de recordarte lo especial que eres... ✨", // Foto 7: Él con flores (espalda)
-          "Porque somos un equipo único, en este y en cualquier universo. ¡Te elijo a ti! ❤️" // Foto 8: Pokémon
+          "Porque somos un equipo único, en este y en cualquier universo. ¡Te elijo a ti! 💞" // Foto 8: Pokémon
         ],
       };
 
@@ -151,7 +151,7 @@ Pero el destino es curioso... y una noche, entre copas y risas, esos celos inesp
 
 Desde ahí, cada salida, cada concierto, cada picnic y cada detalle se volvió un motivo más para elegirte. Gracias por ser mi lugar seguro, por transformar los días grises en momentos llenos de color y por permitirme escribir este cuento contigo. 🫶🏽
 
-Te quiero, hoy y siempre. ❤️`;
+Te quiero, hoy y siempre. 💞`;
 
   const messageEl = document.getElementById("message");
   messageEl.textContent = "";
@@ -165,7 +165,7 @@ Te quiero, hoy y siempre. ❤️`;
 
       let delay = 50;
       if (",".includes(char)) delay = 400;
-      if (".✨😍💪🏼🥰🤭🫶🏽💕😎".includes(char)) delay = 800;
+      if (".✨😍💪🏼🥰🤭🫶🏽💞😎".includes(char)) delay = 800;
       if ("\n".includes(char)) delay = 600;
 
       setTimeout(typeMessage, delay);
@@ -195,7 +195,7 @@ function finishMessage() {
 
 function cerrarProyecto() {
   console.log("Botón finalizar presionado");
-  alert("Gracias por leer hasta el final. ¡Te quiero mucho! ❤️");
+  alert("Gracias por leer hasta el final. ¡Te quiero mucho! 💞");
 }
 
 // --- SISTEMA DE PARTÍCULAS ---
