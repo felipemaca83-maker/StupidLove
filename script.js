@@ -145,9 +145,11 @@ Nuestra historia es mi favorita. ✨
 
 Todo empezó en ese salón de clases, entre apuntes y risas compartidas, sin imaginar que el destino nos estaba sentando en el mismo camino. Fuimos mejores amigos, el apoyo del otro cuando el mundo afuera parecía complicado. 
 
-Pasamos por tormentas, sanamos heridas de pasados que dolieron y nos acompañamos en el proceso de volver a encontrarnos a nosotros mismos. 
+Pasamos por tantas cosas que solo nosotros dos sabemos... Sanamos heridas de pasados con personas que nunca nos completaron y que dolían, pero nos tuvimos el uno al otro para encontrarnos de nuevo.
 
-Pero el destino es curioso... y una noche, entre copas y risas, esos celos inesperados nos delataron. Fue el momento en que nuestras miradas cambiaron y entendimos que lo que sentíamos ya no cabía en la palabra "amistad". 🥰
+Como siempre te digo, Dios, el destino y las energías son curiosos. Ese día, entre copas, mis celos inesperados me delataron y terminé confesándote todo lo que ya no podía ocultar.
+
+En ese instante supe que o te perdía, o este era el inicio de nuestro 'para siempre'. Y después de esa semana, tú también lo notaste: nuestros sentimientos se transformaron, nuestras miradas cambiaron y finalmente entendí...
 
 Desde ahí, cada salida, cada concierto, cada picnic y cada detalle se volvió un motivo más para elegirte. Gracias por ser mi lugar seguro, por transformar los días grises en momentos llenos de color y por permitirme escribir este cuento contigo. 🫶🏽
 
